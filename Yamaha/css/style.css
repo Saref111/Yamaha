@@ -97,7 +97,7 @@ a{
     
     
     
-    width: 51px;
+    width: 52px;
     padding: 0 24px;
     padding-top: 12px;
 
@@ -129,11 +129,12 @@ a{
 
 .type-nav{
     margin: 0;
+    margin-right: 280px;
     list-style: none;
     display: flex;
     justify-content: stretch;
     align-items: stretch;
-    width: 563px;
+    width: 635px;
     
     padding: 0;
 
@@ -142,7 +143,7 @@ a{
     
 }
 
-.type-nav .type-nav-current{
+.current{
     border-bottom: 3px solid #ee3b33;
 }
 
@@ -174,7 +175,61 @@ li:nth-child(4) .type-nav-unit{
     padding-left: 35px;
     padding-right: 33px;
 }
+
 /*RIGHT MENU*/
+
 .user-nav{
+    list-style: none;
+    padding: 0;
+    width: 477px;
+
     display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    
+
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+
+}
+
+.user-nav-unit{
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    padding-bottom: 37px;
+    padding-top: 42px;
+}
+
+li:first-child .user-nav-unit{
+    padding-left: 10px;
+    padding-right: 12px;
+}
+
+li:nth-child(2) .user-nav-unit{
+    padding-left: 18px;
+    padding-right: 12px;
+}
+
+li:nth-child(3) .user-nav-unit{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+li:nth-child(4) .user-nav-unit{
+    position: relative;
+    padding-left: 20px;
+    padding-right: 77px;
+}
+
+li:nth-child(4) .user-nav-unit::before{
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-image: url(/Yamaha/img/search.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    left: 15px;
 }
