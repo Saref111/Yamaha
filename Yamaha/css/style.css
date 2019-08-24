@@ -233,3 +233,55 @@ li:nth-child(4) .user-nav-unit::before{
     background-size: 100%;
     left: 15px;
 }
+
+/*MAIN*/
+/*MOTOCYCLES MENU*/
+
+.bike-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 97px;
+    padding-right: 110px;
+    
+    min-height: 165px;
+    border-bottom: 1px solid #dadfe6;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.bike-menu-unit a{
+    display: block;
+    padding-top: 22px;
+    
+}
+
+.bike-menu-unit p{
+    margin: 0;
+    margin-top: 12px; 
+    margin-left: 45px;
+}
+
+.bike-menu-unit:first-child p{
+    margin-left: 43px;
+}
+
+.bike-menu-unit:nth-child(2) p{
+    margin-left: 50px;
+}
+
+.bike-menu-unit:nth-child(4) p{
+    margin-left: 50px;
+}
+
+.bike-menu-unit:nth-child(5) p{
+    margin-top: 9px;
+    margin-left: 47px;
+}
+
