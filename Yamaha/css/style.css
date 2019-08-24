@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'oswaldregular';
+    src: url('/Yamaha/fonts/Oswald/oswald-bold-webfont.woff2') format('woff2'),
+         url('/Yamaha/fonts/Oswald/oswald-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldregular';
+    src: url('/Yamaha/fonts/Oswald/oswald-medium-webfont.woff2') format('woff2'),
+         url('/Yamaha/fonts/Oswald/oswald-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldregular';
+    src: url('/Yamaha/fonts/Oswald/oswald-regular-webfont.woff2') format('woff2'),
+         url('/Yamaha/fonts/Oswald/oswald-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('/Yamaha/fonts/SourceSansPro/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('/Yamaha/fonts/SourceSansPro/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    width: 1492px;
+    margin: auto;
+    background-image: url(/Yamaha/img/Yamaha.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
