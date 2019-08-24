@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'oswaldregular';
+    font-family: 'Oswald';
     src: url('/Yamaha/fonts/Oswald/oswald-bold-webfont.woff2') format('woff2'),
          url('/Yamaha/fonts/Oswald/oswald-bold-webfont.woff') format('woff');
     font-weight: normal;
@@ -11,7 +11,7 @@
 
 
 @font-face {
-    font-family: 'oswaldregular';
+    font-family: 'Oswald';
     src: url('/Yamaha/fonts/Oswald/oswald-medium-webfont.woff2') format('woff2'),
          url('/Yamaha/fonts/Oswald/oswald-medium-webfont.woff') format('woff');
     font-weight: normal;
@@ -23,7 +23,7 @@
 
 
 @font-face {
-    font-family: 'oswaldregular';
+    font-family: 'Oswald';
     src: url('/Yamaha/fonts/Oswald/oswald-regular-webfont.woff2') format('woff2'),
          url('/Yamaha/fonts/Oswald/oswald-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -45,7 +45,136 @@
 body{
     width: 1492px;
     margin: auto;
-    background-image: url(/Yamaha/img/Yamaha.png);
+    padding: 0px;
+    background-image: url(/Yamaha/img/Yamaha.png); /*GET IT BACK WHEN BASIC MEASURING WILL BE FINISHED.
+                                                         THEN DELETE*/
     background-repeat: no-repeat;
     background-position: top center;
+
+    font-family: "Oswald",  "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+  
+    color: #212327;
+    background-color: #ffffff;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+
+a{
+    text-decoration: none;
+    color: #212327;
+}
+
+/*HEADER*/
+
+.main-nav{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #dadfe6;
+    min-height: 99px;
+}
+
+.main-nav * {
+    margin: 0;
+    
+}
+
+/*LOGO*/
+
+.main-nav > a{
+    background-color: #ee3b33;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    width: 51px;
+    padding: 0 24px;
+    padding-top: 12px;
+
+    font-size: 9px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.14em;
+}
+
+.logo-top:first-child{
+    margin-bottom: 6px;
+    padding-left: 4px;
+    width:45px;
+    height: 44px;
+}
+
+.logo-top:nth-child(2){
+    margin-right: 10px;
+    width: 54px;
+    height: 13px;
+}
+
+.logo span{
+    margin-left: 4px;
+}
+
+/*LEFT MENU*/
+
+.type-nav{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 563px;
+    
+    padding: 0;
+
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    
+}
+
+.type-nav .type-nav-current{
+    border-bottom: 3px solid #ee3b33;
+}
+
+.type-nav-unit{
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    padding-bottom: 33px;
+    padding-top: 43px;
+}
+
+li:first-child .type-nav-unit{
+    padding-left: 38px;
+    padding-right: 35px;
+    
+}
+
+li:nth-child(2) .type-nav-unit{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+li:nth-child(3) .type-nav-unit{
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+li:nth-child(4) .type-nav-unit{
+    padding-left: 35px;
+    padding-right: 33px;
+}
+/*RIGHT MENU*/
+.user-nav{
+    display: flex;
 }
