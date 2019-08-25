@@ -240,6 +240,7 @@ li:nth-child(4) .user-nav-unit::before{
 .bike-menu{
     list-style: none;
     margin: 0;
+    margin-bottom: 110px;
     padding: 0;
     padding-left: 97px;
     padding-right: 110px;
@@ -285,3 +286,53 @@ li:nth-child(4) .user-nav-unit::before{
     margin-left: 47px;
 }
 
+
+/*BIKE CARD */
+/*PIC*/
+
+.bike-card{
+    width: 100%;
+    display: flex;
+    padding-left: 90px;
+}
+
+.bike-card-pic{
+    position: relative;
+}
+
+.bike-card-pic img{
+    opacity: 0.3;
+}
+
+.bike-card-pic button{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #ee3b33;
+    color: white;
+    box-shadow: inset 0 0 0 3px #ffffff;
+    border: 1px solid #f9b5b2;
+
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+
+
+    width: 31px;
+    height: 31px;
+    padding-top: 5px;
+}
+
+.bike-card-pic button:first-of-type{
+    top: 68px;
+    left: 379px;
+}
+
+.bike-card-pic button:nth-of-type(2){
+    top: 253px;
+    left: 73px;
+}
+
+.bike-card-pic button:nth-of-type(3){
+    top: 248px;
+    right: 90px;
+}
