@@ -298,10 +298,12 @@ li:nth-child(4) .user-nav-unit::before{
 
 .bike-card-pic{
     position: relative;
+    margin-right: 5px;
 }
 
 .bike-card-pic img{
-    opacity: 0.3;
+    width: 759px;
+    height: 517px;
 }
 
 .bike-card-pic button{
@@ -335,4 +337,123 @@ li:nth-child(4) .user-nav-unit::before{
 .bike-card-pic button:nth-of-type(3){
     top: 248px;
     right: 90px;
+}
+
+/*BIKE CARD*/
+/*INFO*/
+/*NAME & YEARS*/
+
+.bike-card-info{
+    padding-top: 13px;
+}
+
+.bike-card-info h2{
+    display: inline-block;
+    margin: 0;
+    font-size: 75px;
+    line-height: 80px;
+    letter-spacing: 0.027em;
+}
+
+.years{
+    display: inline-block;
+    min-height: 54px;
+    padding-top: 26px;
+    padding-left: 32px; 
+
+    font-weight: 700;
+    vertical-align: bottom;
+}
+
+.years a:first-child{
+    margin-right: 25px;
+    color: #ee3b33;
+}
+
+.years a:last-child{
+    color: #81848a;
+    position: relative;
+}
+
+.years a:last-child::before{
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 17px;
+    background-color: #e7e9ee;
+    left: -15.5px;
+    bottom: -0.5px;
+}
+
+/*PRICE*/
+
+.price{
+    letter-spacing: 0.02em;
+}
+
+p.price{
+    margin: 0; 
+    margin-bottom: 9px; 
+    padding-left: 6px;
+    font-weight: 700;
+    color:  #81848a;
+    font-size: 12.61px;
+    line-height: 12.7px;
+}
+
+span.price{
+    padding-left: 7px;
+    font-size: 25.03px;
+    font-weight: 700;
+}
+
+/*COLOR CHANGE*/
+
+.colors{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 27px;
+    margin-bottom: 35px;
+    width: 112px;
+    justify-content: space-between;
+}
+
+.colors label{
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    
+    box-shadow: inset 0 0 0 2px #ffffff;
+    border: 1px solid #d0d1d3;
+    
+}
+
+.colors label:first-of-type{
+    background: linear-gradient(to bottom, #5c68b5 0%, #5c68b5 50%, #adacaa 50%, #adacaa 100%);
+}
+
+.colors label:nth-of-type(2){
+    background: linear-gradient(to bottom, #545351 0%, #545351 50%, #adacaa 50%, #adacaa 100%);
+}
+
+.colors label:nth-of-type(3){
+    background: linear-gradient(to bottom, #f5cc22 0%, #f5cc22 50%, #383735 50%, #383735 100%);
+}
+
+.colors .current-color{
+    border: 1px solid #ee3f37;
+}
+
+/*BIKE DESRIPTION*/
+
+.bike-description{
+    width: 439px;
+    margin-left: 5px;
+
+    font-family: 'source_sans_proregular', sans-serif;
+    text-transform: initial;
+    line-height: 28px;
+    font-size: 17px;
+    font-weight: 500;
 }
