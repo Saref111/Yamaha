@@ -442,7 +442,7 @@ span.price{
 }
 
 .colors .current-color{
-    border: 1px solid #ee3f37;
+    border: 1px solid #ee3b33;
 }
 
 /*BIKE DESRIPTION*/
@@ -450,10 +450,36 @@ span.price{
 .bike-description{
     width: 439px;
     margin-left: 5px;
+    margin-bottom: 21px;
 
     font-family: 'source_sans_proregular', sans-serif;
     text-transform: initial;
     line-height: 28px;
     font-size: 17px;
     font-weight: 500;
+}
+
+/*BUTTONS*/
+
+.bike-card-info a.button{
+    display: inline-block;
+    width: 203px;
+    margin: 6px;
+    padding-top: 19px;
+    padding-bottom: 17px;
+    border: 3px solid #ee3b33;
+    border-radius: 4px;
+
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.bike-card-info a.button:first-of-type{
+    color: white;
+}
+
+.bike-card-info a.button:last-of-type{
+    color: #ee3b33;
+    margin-top: -1px;
 }
