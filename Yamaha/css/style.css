@@ -294,6 +294,7 @@ li:nth-child(4) .user-nav-unit::before{
     width: 100%;
     display: flex;
     padding-left: 90px;
+    margin-bottom: 45px;
 }
 
 .bike-card-pic{
@@ -487,7 +488,136 @@ span.price{
 
 /*FEATURES*/
 
+.features-nav{
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    margin-left: 250px;
+    width: 980px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-size: 12.51px;
+    font-weight: 700;
+    color: #c8c8c8;
+}
+
+.features-nav::after{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 930px;
+    background-color: #e3e3e3;
+    top: 78px;
+    left: 30px;
+}
+
+.features-nav li{
+    width: 70px;
+    position: relative;
+}
+
+
+
+.features-nav-list-item{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 .icon{
-    width: 10px;
-    fill: red;
+    width: 30px;
+    height: 30px;
+    fill: #c8c8c8;
+    margin-top: 4px;
+}
+
+
+.icon1{
+    margin-left: 18px;
+    margin-bottom: 7px;
+}
+
+.features-nav li:nth-child(2) {
+    margin-left: 33px;
+}
+
+.icon2{
+    margin-bottom: 9px;
+    margin-left: 3px;
+}
+
+.features-nav li:nth-child(3){
+    margin-left: 20px;
+} 
+
+.icon3{
+    margin-bottom: 8px;
+}
+
+.features-nav li:nth-child(4) label{
+    margin-left: 16px;    
+}
+
+.icon4{
+    margin-bottom: 9px;
+}
+
+
+
+.features-nav li:nth-child(5) label{
+    margin-left: 27px;
+   text-align: center;
+}
+
+.icon5{
+    margin-top: 0;
+    margin-left: 7px;
+    margin-bottom: 13px;
+}
+
+.features-nav li::after{
+    position: absolute;
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-color: #c8c8c8;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.features-nav li:nth-child(1)::after{
+    bottom: -22px;
+    left: 25px;
+    
+}
+.features-nav li:nth-child(2)::after{
+    bottom: -22px;
+    left: 10px;
+}
+.features-nav li:nth-child(3)::after{
+    bottom: -22px;
+    left: 9px;
+}
+.features-nav li:nth-child(4)::after{
+    bottom: -22px;
+    left: 26px;
+}
+.features-nav li:nth-child(5)::after{
+    bottom:-22px;
+    left: 42px;
+}
+
+li.current-feature::after{
+    background-color: #ee3b33;
+}
+
+li.current-feature svg{
+    fill: #ee3b33;
+}
+
+li.current-feature{
+    color: #212327;
 }
