@@ -483,3 +483,10 @@ span.price{
     color: #ee3b33;
     margin-top: -1px;
 }
+
+/*FEATURES*/
+
+.icon{
+    width: 10px;
+    fill: red;
+}
