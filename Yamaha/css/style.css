@@ -492,6 +492,7 @@ span.price{
     padding-bottom: 20px;
     margin: 0;
     margin-left: 250px;
+    margin-bottom: 77px;;
     width: 980px;
     list-style: none;
     display: flex;
@@ -619,4 +620,45 @@ li.current-feature svg{
 
 li.current-feature{
     color: #212327;
+}
+
+/*FEATURES INFO*/
+/*PIC*/
+
+.features-info{
+    margin-left: 318px;
+    border-top: 1px solid white;
+}
+
+.features-info img{
+    float: left;
+    margin-right: 90px;
+}
+
+.features-info h3{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    margin-top: 7px;
+    margin-bottom: 12px;
+}
+
+.features-info h3:nth-of-type(2){
+    margin-bottom: 11px;
+}
+
+.features-info p{
+    margin: 0;
+    font-family: 'source_sans_proregular', "Arial", sans-serif;
+    width: 870px;
+    text-transform: initial;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.features-info p:nth-of-type(2){
+    margin: 0;
+    width: 860px;
 }
