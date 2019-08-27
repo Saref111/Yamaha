@@ -623,10 +623,10 @@ li.current-feature{
 }
 
 /*FEATURES INFO*/
-/*PIC*/
 
 .features-info{
     margin-left: 318px;
+    margin-bottom: 148px;
     border-top: 1px solid white;
 }
 
@@ -662,3 +662,26 @@ li.current-feature{
     margin: 0;
     width: 860px;
 }
+
+/*GALLERY*/
+
+.gallery{
+    width: 100%;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 514px;
+    margin-bottom: 40px;
+}
+
+/*360*/
+
+.a360{
+    
+}
+
+
+
+
