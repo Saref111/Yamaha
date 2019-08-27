@@ -469,6 +469,7 @@ span.price{
     padding-top: 19px;
     padding-bottom: 17px;
     border: 3px solid #ee3b33;
+    
     border-radius: 4px;
 
     text-align: center;
@@ -478,6 +479,7 @@ span.price{
 
 .bike-card-info a.button:first-of-type{
     color: white;
+    background-color: #ee3b33;
 }
 
 .bike-card-info a.button:last-of-type{
@@ -679,7 +681,36 @@ li.current-feature{
 /*360*/
 
 .a360{
+    padding-right: 10px; 
     
+    text-align: center;
+}
+
+.a360 button{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin-left: 700px;
+    padding-left: 30px;
+    letter-spacing: 0.03em;
+    line-height: 10px;
+    background-color: transparent;
+    color: #212327;
+    font-weight: 700;
+    position: relative;
+}
+
+.a360 button::before{
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-image: url('../img/Vector-Smart-Object.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: -4px;
+    top: -7px;
 }
 
 
