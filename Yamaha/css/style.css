@@ -46,7 +46,7 @@ body{
     width: 1492px;
     margin: auto;
     padding: 0px;
-    background-image: url(/Yamaha/img/Yamaha.png); /*GET IT BACK WHEN BASIC MEASURING WILL BE FINISHED.
+     /* background-image: url(/Yamaha/img/Yamaha.png); GET IT BACK WHEN BASIC MEASURING WILL BE FINISHED.
                                                          THEN DELETE*/
     background-repeat: no-repeat;
     background-position: top center;
@@ -235,6 +235,9 @@ li:nth-child(4) .user-nav-unit::before{
 }
 
 /*MAIN*/
+main{
+    margin-bottom: 89px;
+}
 /*MOTOCYCLES MENU*/
 
 .bike-menu{
@@ -682,7 +685,7 @@ li.current-feature{
 
 .a360{
     padding-right: 10px; 
-    
+    margin-bottom: 92px;
     text-align: center;
 }
 
@@ -715,4 +718,191 @@ li.current-feature{
 
 
 
+/*EXTRAS*/
 
+.extras {
+    padding-left: 320px; 
+    padding-right: 320px;
+    
+}
+
+.extras ul{
+    
+    list-style: none;
+    display: flex;
+}
+
+/*TRADEMARKS*/
+
+.trademarks{
+    padding: 0;
+    justify-content: space-between;
+    font-size: 16.27;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+.trademarks-unit{
+    opacity: 0.53;
+}
+
+.trademarks-unit:hover,
+.trademarks-unit:focus,
+.trademarks-unit:active{
+    opacity: 1;
+}
+
+.trademarks-unit span{
+    font-size: 10px;
+    vertical-align: top;
+}
+
+.trademarks li:nth-child(2){
+    margin-left: 20px;
+}
+
+.trademarks li:nth-child(3){
+    margin-right: 25px;
+}
+
+/*ADDITIONAL GOODS*//*uncutted img*/
+
+.good-cards-list{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0;
+    padding-left: 60px;
+    
+
+}
+
+.good-cards-list li:nth-of-type(2) .good-cards-list-unit img{
+    position: relative;
+    top: -27px;
+    left: -22px;
+    margin-bottom: -34px;
+}
+
+.good-cards-list li:nth-of-type(3) .good-cards-list-unit img{
+    position: relative;
+    top: -19px;
+    left: -30px;
+    margin-bottom: -3px;
+}
+
+.good-cards-list-unit{
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.good-cards-list-unit span{
+    display: block;
+}
+
+.good-cards-list-unit span:first-of-type{
+    font-size: 16px;
+}
+.good-cards-list-unit span:last-of-type{
+    font-size: 14px;
+    color: #8d9095;
+}
+
+.good-cards-list li:first-of-type .good-cards-list-unit img{
+    margin-bottom: 17px;
+}
+
+.good-cards-list li:nth-of-type(2) .good-cards-list-unit span{
+    margin-left: -30px;
+}
+
+.good-cards-list li:nth-of-type(3) .good-cards-list-unit span{
+    margin-left: -48px;
+}
+
+/*FOOTER*/
+/*FOOTER 1(top)*/
+
+
+
+.footer-1{
+    min-height: 182px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 27px;
+    padding-left: 177px;
+    padding-top: 28px;
+    padding-right: 259px;
+    background-color: #212327;
+}
+
+.footer-1 div{
+    width: 705px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-1-list{
+    min-width: 122px;
+    padding: 0;
+    word-spacing: nowrap;
+    
+}
+
+
+.footer-1-list:nth-child(2){
+    margin-left: 2px;
+}
+
+.footer-1-list:nth-child(3){
+    margin-right: 0px;
+}
+
+.footer-1-list a{
+    color: #787e89;
+    word-spacing: nowrap;
+}
+
+.footer-logo{
+    margin-top: 55px;    
+}
+
+/*FOOTER 2(bottom)*/
+
+.footer-2{
+    width: 100%;
+    min-height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #787e89;
+    font-size: 10px;
+    font-weight: 500;
+    
+    padding-top: 3px;
+    line-height: 16px;
+    background-color: #191a1e;
+    
+}
+
+.footer-2-list{
+   
+    list-style: none;
+    margin: 0;
+    margin-left: 117px;
+    padding: 0;
+    display: flex;
+    white-space: nowrap;
+    
+}
+
+.footer-2-list a{
+    color: #787e89;
+}
+.footer-2-list li:not(:last-child){
+    margin-right: 25px;
+}
