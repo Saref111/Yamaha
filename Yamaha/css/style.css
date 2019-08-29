@@ -53,7 +53,7 @@ body {
 
 .visually-hidden {
   position: absolute;
-  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -67,6 +67,8 @@ a {
 
 .main-nav {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   border-bottom: 1px solid #dadfe6;
   min-height: 99px;
@@ -80,7 +82,12 @@ a {
 
 .main-nav > a {
   background-color: #ee3b33;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 
   width: 52px;
@@ -117,8 +124,14 @@ a {
   margin: 0;
   margin-right: 280px;
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: stretch;
+  -ms-flex-pack: stretch;
   justify-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
   align-items: stretch;
   width: 635px;
 
@@ -167,8 +180,16 @@ li:nth-child(4) .type-nav-unit {
   padding: 0;
   width: 477px;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
+  -webkit-box-pack: stretch;
+  -ms-flex-pack: stretch;
   justify-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
   align-items: stretch;
 
   font-size: 12px;
@@ -233,8 +254,16 @@ main {
   min-height: 165px;
   border-bottom: 1px solid #dadfe6;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
   align-items: stretch;
 
   font-size: 13px;
@@ -275,6 +304,8 @@ main {
 
 .bike-card {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-left: 90px;
   margin-bottom: 45px;
@@ -295,6 +326,7 @@ main {
   border-radius: 50%;
   background-color: #ee3b33;
   color: white;
+  -webkit-box-shadow: inset 0 0 0 3px #ffffff;
   box-shadow: inset 0 0 0 3px #ffffff;
   border: 1px solid #f9b5b2;
 
@@ -393,11 +425,15 @@ span.price {
 /*COLOR CHANGE*/
 
 .colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 5px;
   margin-top: 27px;
   margin-bottom: 35px;
   width: 112px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -407,11 +443,22 @@ span.price {
   height: 22px;
   border-radius: 50%;
 
+  -webkit-box-shadow: inset 0 0 0 2px #ffffff;
+
   box-shadow: inset 0 0 0 2px #ffffff;
   border: 1px solid #d0d1d3;
 }
 
 .colors label:first-of-type {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#5c68b5),
+    color-stop(50%, #5c68b5),
+    color-stop(50%, #adacaa),
+    to(#adacaa)
+  );
   background: linear-gradient(
     to bottom,
     #5c68b5 0%,
@@ -422,6 +469,15 @@ span.price {
 }
 
 .colors label:nth-of-type(2) {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#545351),
+    color-stop(50%, #545351),
+    color-stop(50%, #adacaa),
+    to(#adacaa)
+  );
   background: linear-gradient(
     to bottom,
     #545351 0%,
@@ -432,6 +488,15 @@ span.price {
 }
 
 .colors label:nth-of-type(3) {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f5cc22),
+    color-stop(50%, #f5cc22),
+    color-stop(50%, #383735),
+    to(#383735)
+  );
   background: linear-gradient(
     to bottom,
     #f5cc22 0%,
@@ -496,7 +561,11 @@ span.price {
   margin-bottom: 77px;
   width: 980px;
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   position: relative;
   font-size: 12.51px;
@@ -520,7 +589,12 @@ span.price {
 }
 
 .features-nav-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -661,9 +735,17 @@ li.current-feature {
 .gallery {
   width: 100%;
   white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 514px;
   margin-bottom: 40px;
@@ -713,6 +795,8 @@ li.current-feature {
 
 .extras ul {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -720,6 +804,8 @@ li.current-feature {
 
 .trademarks {
   padding: 0;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   font-size: 16.27px;
   letter-spacing: 0.02em;
@@ -753,7 +839,11 @@ li.current-feature {
 /*ADDITIONAL GOODS*/ /*uncutted img*/
 
 .good-cards-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 
   padding: 0;
@@ -809,7 +899,11 @@ li.current-feature {
 
 .footer-1 {
   min-height: 182px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   font-size: 12px;
   line-height: 27px;
@@ -821,7 +915,11 @@ li.current-feature {
 
 .footer-1 div {
   width: 705px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -851,8 +949,13 @@ li.current-feature {
 .footer-2 {
   width: 100%;
   min-height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   color: #787e89;
   font-size: 10px;
@@ -868,6 +971,8 @@ li.current-feature {
   margin: 0;
   margin-left: 117px;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   white-space: nowrap;
 }
