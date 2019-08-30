@@ -1,32 +1,32 @@
 @font-face {
   font-family: "Oswald";
-  src: url("/Yamaha/fonts/Oswald/oswald-bold-webfont.woff2") format("woff2"),
-    url("/Yamaha/fonts/Oswald/oswald-bold-webfont.woff") format("woff");
+  src: url("../fonts/Oswald/oswald-bold-webfont.woff2") format("woff2"),
+    url("../fonts/Oswald/oswald-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Oswald";
-  src: url("/Yamaha/fonts/Oswald/oswald-medium-webfont.woff2") format("woff2"),
-    url("/Yamaha/fonts/Oswald/oswald-medium-webfont.woff") format("woff");
+  src: url("../fonts/Oswald/oswald-medium-webfont.woff2") format("woff2"),
+    url("../fonts/Oswald/oswald-medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Oswald";
-  src: url("/Yamaha/fonts/Oswald/oswald-regular-webfont.woff2") format("woff2"),
-    url("/Yamaha/fonts/Oswald/oswald-regular-webfont.woff") format("woff");
+  src: url("../fonts/Oswald/oswald-regular-webfont.woff2") format("woff2"),
+    url("../fonts/Oswald/oswald-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "source_sans_proregular";
-  src: url("/Yamaha/fonts/SourceSansPro/sourcesanspro-regular-webfont.woff2")
+  src: url("../fonts/SourceSansPro/sourcesanspro-regular-webfont.woff2")
       format("woff2"),
-    url("/Yamaha/fonts/SourceSansPro/sourcesanspro-regular-webfont.woff")
+    url("../fonts/SourceSansPro/sourcesanspro-regular-webfont.woff")
       format("woff");
   font-weight: normal;
   font-style: normal;
@@ -37,7 +37,7 @@ body {
   width: 1492px;
   margin: auto;
   padding: 0px;
-  /* background-image: url(/Yamaha/img/Yamaha.png); GET IT BACK WHEN BASIC MEASURING WILL BE FINISHED.
+  /* background-image: url(../img/Yamaha.png); GET IT BACK WHEN BASIC MEASURING WILL BE FINISHED.
                                                          THEN DELETE*/
   background-repeat: no-repeat;
   background-position: top center;
@@ -232,7 +232,7 @@ li:nth-child(4) .user-nav-unit::before {
   content: "";
   width: 18px;
   height: 18px;
-  background-image: url(/Yamaha/img/search.svg);
+  background-image: url(../img/search.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   left: 15px;
@@ -947,7 +947,6 @@ li.current-feature {
 
 /*FOOTER 2(bottom)*/
 
-
 .footer-2 {
   width: 100%;
   min-height: 45px;
@@ -962,7 +961,7 @@ li.current-feature {
   color: #787e89;
   font-size: 10px;
   font-weight: 500;
-
+  white-space: nowrap;
   padding-top: 3px;
   line-height: 1px;
   background-color: #191a1e;
@@ -981,6 +980,7 @@ li.current-feature {
 
 .footer-2-list a {
   color: #787e89;
+  white-space: nowrap;
 }
 .footer-2-list li:not(:last-child) {
   margin-right: 25px;

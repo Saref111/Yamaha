@@ -35,7 +35,7 @@
 body {
   height: 100%;
   width: 1492px;
-  margin: 0 auto;
+  margin: auto;
   padding: 0px;
   /* background-image: url(/Yamaha/img/Yamaha.png); GET IT BACK WHEN BASIC MEASURING WILL BE FINISHED.
                                                          THEN DELETE*/
@@ -961,9 +961,9 @@ li.current-feature {
   color: #787e89;
   font-size: 10px;
   font-weight: 500;
-
+  white-space: nowrap;
   padding-top: 3px;
-  line-height: 16px;
+  line-height: 1px;
   background-color: #191a1e;
 }
 
@@ -980,6 +980,7 @@ li.current-feature {
 
 .footer-2-list a {
   color: #787e89;
+  white-space: nowrap;
 }
 .footer-2-list li:not(:last-child) {
   margin-right: 25px;
